@@ -18,7 +18,7 @@ async function pagina() {
                 <td> ${item.descricao} </td>
                 <td> ${item.apelido} </td>
                 <td> ${item.sobrenome} </td>
-                <td><button>asdf</button></td>
+                <td><button>editar</button></td>
             `;
 
             destino.appendChild(card);
