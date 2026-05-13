@@ -4,7 +4,8 @@
     "nome":"Macarronada",
     "descricao":"descrição",
     "apelido":"macarronanana",
-    "endereco":"produto.html"
+    "sobrenome":"macarrino",
+    "tipo":"produto.html"
     },
 
     {
@@ -12,28 +13,32 @@
     "nome":"Carne",
     "descricao":"descrição",
     "apelido":"carneazao",
-    "endereco":"produto.html"
+    "sobrenome":"carnerinho",
+    "tipo":"produto.html"
     },
     {
     
     "nome":"Batata Frita",
     "descricao":"descrição",
     "apelido":"batatatao",
-    "endereco":"produto.html"
+    "sobrenome":"batatino",
+    "tipo":"produto.html"
     },
     {
     
     "nome":"Porco",
     "descricao":"descrição",
     "apelido":"porcoalhao",
-    "endereco":"produto.html"
+    "sobrenome":"porcalino",
+    "tipo":"produto.html"
     },
     {
     
     "nome":"Frango",
     "descricao":"descrição",
-    "apelido":"carnezzinha",
-    "endereco":"produto.html"
+    "apelido":"frangazzinha",
+    "sobrenome":"frangalino",
+    "tipo":"produto.html"
     }
     
 ]

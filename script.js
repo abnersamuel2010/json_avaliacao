@@ -1,19 +1,30 @@
-function sla(){
-    fetch('dados.json')
-    .then(response => response.json())
-    .then(ddd =>{
-        tablet = document.getElementById('lugar');
+async function pagina() {
+    const destino = document.getElementById('destino');
+    try{
+        const response = await fetch('dados.json'); 
+        
+        if (!response.ok) throw new Error('Falha ao carregar dados');
 
-        ddd.forEach(item =>{
-            let linha = document.createElement('tr');
+        const paginas = await response.json();
 
-             linha.innerHTML = 
-             "<td>" + item.nome + "</td>" +
-             "<td>" + item.descricao + "</td>" +
-             "<td>" + item.apelido + "</td>"+
-             "<td>" + item.endereco + "</td>";
-             
-        tablet.appendChild(linha);
+        destino.innerHTML='';
+
+        paginas.forEach(item => {
+            const card = document.createElement('tr');
+            card.className = 'card';
+
+            card.innerHTML = `
+                <td> ${item.nome} </td>
+                <td> ${item.descricao} </td>
+                <td> ${item.apelido} </td>
+                <td> ${item.sobrenome} </td>
+                <td><button>asdf</button></td>
+            `;
+
+            destino.appendChild(card);
         });
-    })
-}
+    } catch (error) {
+        console.error('Erro na requisição:', error);
+        destino.innerHTML = '<p>Desculpe, não foi possivel carregar as informações no momento.</p>';
+    }
+ }
