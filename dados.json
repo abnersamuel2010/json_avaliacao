@@ -1,0 +1,39 @@
+[
+    {
+    
+    "nome":"Macarronada",
+    "descricao":"descrição",
+    "apelido":"macarronanana",
+    "endereco":"produto.html"
+    },
+
+    {
+    
+    "nome":"Carne",
+    "descricao":"descrição",
+    "apelido":"carneazao",
+    "endereco":"produto.html"
+    },
+    {
+    
+    "nome":"Batata Frita",
+    "descricao":"descrição",
+    "apelido":"batatatao",
+    "endereco":"produto.html"
+    },
+    {
+    
+    "nome":"Porco",
+    "descricao":"descrição",
+    "apelido":"porcoalhao",
+    "endereco":"produto.html"
+    },
+    {
+    
+    "nome":"Frango",
+    "descricao":"descrição",
+    "apelido":"carnezzinha",
+    "endereco":"produto.html"
+    }
+    
+]
